@@ -64,9 +64,9 @@ class CreateTask:
             try:
                 priority = int(input("Priority: "))
             except ValueError:
-                print('Choose Valid priority (1-High, 2-Medium, 3-Low)')
-                print("press any random number to select default")
-                print("Default Priority: High")
+                print("""Choose Valid priority (1-High, 2-Medium, 3-Low)
+press any random number to select default
+Default Priority: High""")
             else:
                 return priority
             
